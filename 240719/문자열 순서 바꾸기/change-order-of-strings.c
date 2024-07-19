@@ -2,7 +2,7 @@
 
 int main() {
     // 여기에 코드를 작성해주세요.
-    char s[10]
+    char s[10];
     char t[10];
     scanf("%s %s", s, t);
     printf("%s\n%s", t, s);
