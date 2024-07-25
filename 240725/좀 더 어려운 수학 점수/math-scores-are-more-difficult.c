@@ -9,17 +9,18 @@ int main() {
     if(a_math>b_math){
         printf("A");
     }
-    else{
-        printf("B");
-    }
     
-    if(a_math==b_math){
+    else if(a_math==b_math){
         if (a_eng>b_eng){
             printf("A");
         }
         else{
             printf("B");
         }
+    }
+
+    else{
+        printf("B");
     }
     return 0;
 }
