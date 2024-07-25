@@ -8,6 +8,11 @@ int main() {
     scanf("%d %c", &age1, &sex1);
     scanf("%d %c", &age2, &sex2);
 
-    printf("%d", (age1>=19 || age2>=19) && (sex1=='M' || sex2=='M'));
+    if((age1>=19 && sex1=='M') || (age2>=19 && sex2=='M')){
+        printf("1");
+    }
+    else{
+        printf("0");
+    }
     return 0;
 }
