@@ -7,14 +7,32 @@ int main() {
 
     if(a>b){
         if(c>a){
-            printf("%d", a);
+            printf("%d", a); // b a c
         }
-        else if(c<a && c>b){
-            printf("%d", c);
+        else if(c<a){
+            if(c>b){
+                printf("%d", c); // b c a
+            }
+            else{
+                printf("%d", b); // c b a
+            }
         }
-        else{
-            printf("%d", b);
+
+    }
+
+    else if(b>a){
+        if(c>b){
+            printf("%d", b); // a b c
+        }
+        else if(c<b){
+            if(c>a){
+                printf("%d", c); // a c b
+            }
+            else{
+                printf("%d", a); // c a b
+            }
         }
     }
+
     return 0;
 }
