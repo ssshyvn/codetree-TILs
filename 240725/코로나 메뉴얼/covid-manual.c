@@ -33,6 +33,9 @@ int main() {
         else{
             printf("N");
         }
+    }
+    else {
+        printf("N");
     }        
     return 0;
 }
