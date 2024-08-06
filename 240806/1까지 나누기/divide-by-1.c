@@ -5,7 +5,7 @@ int main() {
     int n;
     scanf("%d", &n);
     int cnt=0;
-    for(int i=1; ;i++){
+    for(int i=1;i<=n;i++){
         n/=i;
         cnt++;
         if(n/i<=1){
