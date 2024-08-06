@@ -6,8 +6,8 @@ int main() {
     scanf("%d", &n);
     int cnt=0;
     for(int i=1; ;i++){
-        cnt+=1;
         n/=i;
+        cnt+=1;
         if(n/i<=1){
             cnt+=1;
             break;
