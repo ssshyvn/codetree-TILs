@@ -7,9 +7,9 @@ int main() {
     int cnt=0;
     for(int i=1; ;i++){
         n/=i;
-        cnt+=1;
+        cnt++;
         if(n/i<=1){
-            cnt+=1;
+            cnt++;
             break;
         }
         
