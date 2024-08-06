@@ -5,11 +5,10 @@ int main() {
     int n;
     scanf("%d", &n);
     int cnt=0;
-    for(int i=1;i<=n;i++){
+    for(int i=1;;i++){
         n/=i;
         cnt++;
-        if(n/i<=1){
-            cnt++;
+        if(n<=1){
             break;
         }
         
