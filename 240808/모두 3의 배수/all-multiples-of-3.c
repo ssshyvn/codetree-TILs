@@ -10,6 +10,10 @@ int main() {
         if(n%3==0){
             x=true;
         }
+        else{
+            x=false;
+            break;
+        }
     }
     if(x==true){
         printf("1");
