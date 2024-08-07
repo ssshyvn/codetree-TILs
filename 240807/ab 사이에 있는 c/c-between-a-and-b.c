@@ -4,7 +4,7 @@
 int main() {
     // 여기에 코드를 작성해주세요.
     int a, b, c;
-    bool x;
+    bool x=false;
     scanf("%d %d %d", &a, &b, &c);
     for(a; a<=b; a++){
         if(a%c==0){
